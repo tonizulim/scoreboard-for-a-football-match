@@ -1,0 +1,33 @@
+#mainBox{
+    display: flex;
+    flex-direction: column;
+}
+#Buttons_score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.457);
+    backdrop-filter: blur(5px);
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 15px
+}
+#Stats_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+}
+#buttons_div{
+    justify-content: space-between;
+    
+}
+.stats_class{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.457);
+    backdrop-filter: blur(5px);
+}
+

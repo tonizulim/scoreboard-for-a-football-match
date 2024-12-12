@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(45deg, #45A29E,#66FCF1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mai{ 
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg,#0b0c10, #1f2833);
+  /* background-color: #1f2833; */
+  justify-content: center;
+  text-align: center;
+  margin: 10vh;
+  border: 3px solid #0B0C10;
+  border-radius: 15px;
+  color: #66FCF1;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 15px;
+}
+
